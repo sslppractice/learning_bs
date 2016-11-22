@@ -1,0 +1,45 @@
+/* Tamanho Grande de tela - Acima de 1170 px*/
+@media(min-width: 1171px) {
+	.noticia p {
+		color: blue;
+		columns: 4;
+		column-gap: 40px;
+	}
+}
+
+/* Tamanho médio de tela - Até 1170 px*/
+@media only screen 
+and (min-width: 971px)
+and (max-width: 1170px) {
+	.noticia p {
+		color: black;
+		columns: 3;
+		column-gap: 40px;
+	}
+}
+
+/* Tamanho pequeno de tela - Até 970 px*/
+@media(max-width: 970px) {
+	.noticia p {
+		color: purple;
+		columns: 2;
+		column-gap: 20px;
+	}
+}
+
+/* Tamanho muito pequeno de tela - Até 750 px*/
+@media(max-width: 750px) {
+	.noticia p {
+		color: red;
+		columns: 1;
+	}
+}
+
+.noticia {
+	background-color: #F5F5F5;
+}
+
+
+
+
+

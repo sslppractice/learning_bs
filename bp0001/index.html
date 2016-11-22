@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <!-- Tag meta 'para definir algumas regras para o navegador -->
+        <meta charset="utf-8">
+
+        <!-- - O Bootstrap é responsivo, ou seja, funcionará para diferentes tamanhos de telas;
+        A tag seguinte diz que independentemente do dispositovo, o zoom estárá normal, e
+        a largura do elemento será a mesma largura do dispositivo;
+        (Para funcionar corretamente nos dispositivos móveis) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exemplo</title>
+        <!-- O CSS cuida da estilização da página, assim, é melhor carregar as regas antes de carregar os elementos -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <h1>Introdução ao Bootstrap</h1>
+            <ul>
+                <li>Framework Front-end (Conjunto de ferramentas CSS e Javascript) para auxiliar no desenvolvimento de interfaces</li>
+                <li>É responsivo - Funciona em todo tipo de tela e dispositivo</li>
+
+            </ul>
+            <h2>Ambiente de Desenvolvimento</h2>
+            <ul>
+                <li>
+                    <a href="http://getbootstrap.com/">Bootstrap</a> versão 3.3.7
+                    <ul class="small">
+                        <li>css\bootstrap.min.css</li>
+                        <li>js\bootstrap.min.js</li>
+                        <li>fonts</li>
+                    </ul>
+                </li>
+                <li><a href="https://code.jquery.com/jquery-2.2.4.min.js">jQuery</a> versão 2.2.4</li>
+            </ul>
+
+            <h2>Tipografia com Bootstrap <small>(Exemplos)</small></h2>
+            
+            <h3>Cabeçalhos</h3>
+
+            <h3 style="color:blue">Título <small>Motivação e Objetivos</small></h3>
+            <h4 style="color:blue">Título <small>Motivação e Objetivos</small></h4>
+            <h5 style="color:blue">Título <small>Motivação e Objetivos</small></h5>
+            <h6 style="color:blue">Título <small>Motivação e Objetivos</small></h6>
+            
+            <h3>Estilização de texto</h3>
+            <p>
+                <mark>
+                <ins>texto inserido</ins>,
+                <u>texto sublinhado</u>,
+                <b>texto em negrito</b>,
+                <strong>texto forte</strong>,
+                <em>texto para enfatizar</em>,
+                <i>texto em italico!</i>,
+                <del>texto deletado</del> ,
+                <s>texto riscado</s>
+                </mark>
+            </p>
+
+            <p style="color:#ccc;"><mark>Lorem</mark> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque <mark>lorem</mark> viverra purus ac magna lacinia  <mark>lorem</mark>facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada  <mark>lorem</mark>velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus,  <mark>lorem</mark>eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis <del>deletado</del> ullamcorper <del>deletado</del> tellus <del>deletado</del> sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.
+                <s>riscado</s> non rutrum <s>riscado</s> sdf.
+                <strong>strong!</strong> lorem <strong>strong!</strong> lorem <strong>strong!</strong>.
+                <ins>inserted </ins> <ins>inserted </ins> <ins>inserted </ins>
+                <u>sublinhado</u> lorem <u>lorem</u> lorem
+                <b>negrito</b> <b>negrito</b> <b>negrito</b> <b>negrito</b>
+                <em>enfatizar</em> <em>enfatizar</em> <em>enfatizar</em> <em>enfatizar</em>
+                es odio
+                <i>texto em italico!</i>
+            </p>
+
+            <h3>Sobressaindo o texto com a classe lead</h3>
+            <!-- Para o Texto se sobresair (ficar maior) -->
+            <p class="lead" style="color:blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <p class="lead" style="color:#ccc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <h3>Parágrafos como Cabeçalhos</h3>
+            <!-- Para o Texto ficar com 80% do tamanho .. -->
+            <p class="small" style="color:#f00;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h1" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h2" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h3" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h4" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h5" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="h6" style="color:#ccc;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+            <h3>Alinhamento do Texto</h3>
+            <p class="text-left" style="color:#aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus, eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis ullamcorper tellus sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.</p>
+            
+            <p class="text-right" style="color:#aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus, eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis ullamcorper tellus sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.</p>
+            
+            <p class="text-center" style="color:#aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus, eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis ullamcorper tellus sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.</p>
+            
+            <p class="text-justify" style="color:#aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus, eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis ullamcorper tellus sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.</p>
+            
+            <p class="text-nowrap" style="color:#aaa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus. Pellentesque quis nulla gravida, accumsan massa ut, elementum leo. Integer malesuada velit in elit placerat, eu lacinia massa ullamcorper. Ut turpis ante, bibendum eu efficitur nec, mattis nec nunc. Cras convallis massa lectus, eu sodales odio ornare nec. Maecenas pellentesque nisl lectus, quis ullamcorper tellus sollicitudin quis. Etiam ut blandit velit, non rutrum turpis.</p>
+
+            <h2>Exemplos com Listas</h2>
+            
+            <h3>Lista Não ordenada</h3>
+            Uma Lista:
+            <ul>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+            </ul>
+            Outra Lista:
+            <ul>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>
+                    <ul>
+                        <li>Ut turpis ante, bibendum</li>
+                        <li>Ut turpis ante, bibendum</li>
+                        <li>Ut turpis ante, bibendum</li>
+                    </ul>
+                </li>
+                <li>Ut turpis ante, bibendum</li>
+            </ul>
+            <h3>Lista Ordenada</h3>
+            Uma Lista:
+            <ol>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+            </ol>
+            <h3>Lista sem Estilo</h3>
+            Uma Lista:
+            <ul class="list-unstyled">
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+            </ul>
+            Uma Lista:
+            <ol class="list-unstyled">
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+            </ol>
+            <h3>Lista Alinhada Horizontalmente</h3>
+            Uma Lista:
+            <ul class="list-inline">
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+                <li>Ut turpis ante, bibendum</li>
+            </ul>
+            <h3>Lista de Descrições</h3>
+            <dl>
+                <dt>Assunto</dt>
+                <dd>Ut turpis ante, bibendum</dd>
+                <dt>Assunto</dt>
+                <dd>Ut turpis ante, bibendum</dd>
+            </dl>
+            <h3>Lista de Descrições (Horizontal)</h3>
+            <dl class="dl-horizontal">
+                <dt>Assunto</dt>
+                <dd>Ut turpis ante, bibendum</dd>
+                <dt>Assunto</dt>
+                <dd>Ut turpis ante, bibendum</dd>
+            </dl>
+            <h2>Tipografia</h2>
+            <h3>Transformação</h3>
+            <p class="text-lowercase" style="color:#ccc;">Lorem ipsum dolor sit ametIE</p>
+            <p class="text-uppercase" style="color:#ccc;">Lorem ipsum dolor sit ametIE</p>
+            <p class="text-capitalize" style="color:#ccc;">lorem ipsum dolor sit ameIE</p>
+            <h3>Abreviação</h3>
+            <p>Lorem <abbr title="L.O.R.E.M">Ipsum</abbr> adipiscing elit.</p>
+            <p>Lorem <abbr title="L.O.R.E.M" class="initialism">Ipsum</abbr> adipiscing elit.</p>
+            <h3>Citação</h3>
+            <p>
+                Uma citação:
+                <blockquote >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus.</p>
+                <footer>Fulano de Tal</footer>
+            </blockquote>
+            Outra citação:
+            <blockquote class="blockquote-reverse">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus mauris eros, at varius elit cursus in. Pellentesque sed vestibulum velit. Vestibulum et lorem nec ante scelerisque mollis. Pellentesque viverra purus ac magna lacinia facilisis. Sed consequat sapien quis varius finibus.</p>
+            <footer>Fulano de Tal</footer>
+        </blockquote>
+    </p>
+</div>
+
+<!--
+Observação importante: Os arquivos Javascript vão no fim do corpo do documento por ser uma questão de desempenho!
+Ao colocar os arquivos javascript no final, o download e
+execução do script será feito após a renderização da página (ou seja, quando a página for exxeibida ao usuário)
+O browser faz o download e carrega os arquivos externos (css, imagens, códigos js) simultaneamente a medida que os encontra;
+-->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
