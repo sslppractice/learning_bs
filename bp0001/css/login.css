@@ -1,0 +1,26 @@
+body {
+	min-height: 100vh; /* Para o body sempre se encaixar na tela - vh - viewport hight - altura da tela */
+	background-color: #ccc;
+	background-image: url('../img/fruit.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.login-form {
+	/*centralização vertical*/
+	margin-top: 50vh;
+	transform: translateY(-50%);
+	padding: 20px 30px;
+
+	color: #fff;
+	background-color: rgba(85, 107, 47, 0.5);
+}
+
+.login-form h1 {
+	margin: 0 0 5px; /*cima, esq/dir, baixo */
+}
+
+.login-form h2 {
+	margin: 0 0 30px; /*cima, esq/dir, baixo */
+	font-size: 1em;
+}

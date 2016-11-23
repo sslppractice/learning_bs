@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/login.css">
+	</head>
+	<body>
+		<!-- 
+			Centralização horizontal com col-**-offset-*
+			xs 1 (offset) 10 1 (offset)
+			sm 3 (offset) 6 3 (offset)
+			md 4 (offset) 4 4 (offset)
+		-->
+		<div class="login-form col-xs-10 col-sm-6 col-md-4 col-xs-offset-1 col-sm-offset-3 col-md-offset-4">
+			<header>
+				<h1><img src="img/logo.jpg" class="img-responsive"></h1>
+				<h2 class="text-center">Informe seu usuário e senha</h2>
+			</header>
+			<form>
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-user"></span>
+						</div>
+						<input type="text"  class="form-control" placeholder="usuário">
+					</div>	
+				</div>
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-option-horizontal"></span>
+						</div>
+						<input type="password" class="form-control" placeholder="senha">
+					</div>	
+				</div>
+				<footer>
+					<div class="checkbox pull-left">
+						<label><input type="checkbox" name="lembrar" checked>Lembrar</label>
+					</div>
+					<button type="submit" class="btn btn-primary pull-right">Entrar</button>
+				</footer>
+			</form>
+		</div>
+
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
