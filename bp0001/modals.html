@@ -1,0 +1,103 @@
+<!-- Modals examples (check http://getbootstrap.com/javascript/) -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modals</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Modals</h3>
+      <h4>Simple Example </h4>
+      <!-- Buttons - trigger modals -->
+      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal02">Simple</button>
+      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal03">Large</button>
+      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal04">Small</button>
+      
+      <!-- Modal -->
+      <!-- This modal starts when the page loads-->
+      <div id="modal01" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">You have a new message!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Remember to study bootstrap modals!y&hellip;</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Okay!</button>
+            </div>
+            </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+      </div><!-- modal -->
+
+            <!-- Simple Modal -->
+            <div class="modal fade" id="modal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Example</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Confirm</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Large Modal -->
+            <div class="modal fade" id="modal03" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Example</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Confirm</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Small Modal -->
+            <div class="modal fade" id="modal04" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+              <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Example</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Confirm</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="js/jquery-2.2.4.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <!-- Just to show a modal when the page loads -->
+          <script>
+          $('#modal01').modal('show');
+          </script>
+        </body>
+      </html>
