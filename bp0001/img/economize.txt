@@ -1,0 +1,4 @@
+cores usadas para o logo:
+
+#00ff7f
+#007fff

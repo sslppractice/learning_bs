@@ -1,9 +1,10 @@
-Exemplo de Uso do Bootstrap
+Exemplos de Uso do Bootstrap
 --------------------------
 
 Sinopse
 --------------------------
 - Exemplos com Media Queries
+- Exemplos introdutórios com bootstrap
 
 Recursos Usados
 --------------------------
